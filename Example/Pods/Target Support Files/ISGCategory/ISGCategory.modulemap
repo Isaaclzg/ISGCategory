@@ -1,0 +1,6 @@
+framework module ISGCategory {
+  umbrella header "ISGCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,7 +1,7 @@
 {
   "name": "ISGCategory",
-  "version": "0.1.4",
-  "summary": "ISGCategory.",
+  "version": "0.1.5",
+  "summary": "ISGCategory",
   "description": "TODO: 常用分类.",
   "homepage": "https://github.com/Isaaclzg/ISGCategory",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Isaaclzg/ISGCategory.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "social_media_url": "https://www.jianshu.com/u/7e1b920cdac1",
   "platforms": {

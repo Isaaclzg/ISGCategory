@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ISGCategory_Example' do
+  pod 'ISGCategory', :path => '../'
+
+  target 'ISGCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

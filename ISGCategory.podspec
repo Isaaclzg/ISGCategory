@@ -32,9 +32,12 @@ TODO: 常用分类.
 
   s.source_files = 'ISGCategory/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ISGCategory' => ['ISGCategory/Assets/*.png']
-  # }
+  
+  s.resource_bundles = {
+  
+  'ISGCategory' => ['ISGCategory/Assets/*.png']
+  
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

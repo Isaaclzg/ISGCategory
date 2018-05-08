@@ -20,6 +20,11 @@
     "ios": "8.0"
   },
   "source_files": "ISGCategory/Classes/**/*",
+  "resource_bundles": {
+    "ISGCategory": [
+      "ISGCategory/Assets/*.png"
+    ]
+  },
   "frameworks": "UIKit",
   "dependencies": {
     "MBProgressHUD": [

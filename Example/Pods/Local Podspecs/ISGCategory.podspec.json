@@ -1,6 +1,6 @@
 {
   "name": "ISGCategory",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "ISGCategory",
   "description": "TODO: 常用分类.",
   "homepage": "https://github.com/Isaaclzg/ISGCategory",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Isaaclzg/ISGCategory.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "social_media_url": "https://www.jianshu.com/u/7e1b920cdac1",
   "platforms": {
@@ -25,7 +25,12 @@
       "ISGCategory/Assets/*.png"
     ]
   },
-  "frameworks": "UIKit",
+  "frameworks": [
+    "UIKit",
+    "CoreGraphics",
+    "Foundation",
+    "QuartzCore"
+  ],
   "dependencies": {
     "MBProgressHUD": [
       "~> 1.1.0"

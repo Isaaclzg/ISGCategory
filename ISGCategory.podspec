@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISGCategory'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'ISGCategory'
 
 # This description is used to generate tags and improve search results.
@@ -40,6 +40,6 @@ TODO: 常用分类.
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit','CoreGraphics','Foundation','QuartzCore'
   s.dependency 'MBProgressHUD', '~> 1.1.0'
 end

@@ -8,6 +8,7 @@
 //
 
 #import "MBProgressHUD+ISGProgress.h"
+#import "NSBundle+ISGPodBundle.h"
 
 @implementation MBProgressHUD (ISGProgress)
 
@@ -20,7 +21,9 @@
     hud.label.text = text;
     // 设置图片
     
-    UIImage *img = ISGImgWithName(icon);
+    NSBundle *bundle = [NSBundle bundleWithBundleName:nil podName:@"ISGCategory"];
+    NSString *path = [[bundle resourcePath] stringByAppendingPathComponent:icon];
+    UIImage *img = [UIImage imageWithContentsOfFile:path];
     hud.customView = [[UIImageView alloc] initWithImage:img];
     // 再设置模式
     hud.mode = MBProgressHUDModeCustomView;
@@ -40,7 +43,7 @@
 
 + (void)showSuccess:(NSString *)success toView:(UIView *)view
 {
-    [self show:success icon:@"ISGProgress_success.png" view:view];
+    [self show:success icon:@"ISGProgress_success" view:view];
 }
 
 #pragma mark 显示一些信息

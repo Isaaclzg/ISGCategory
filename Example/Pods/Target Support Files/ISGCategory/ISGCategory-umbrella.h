@@ -11,6 +11,7 @@
 #endif
 
 #import "MBProgressHUD+ISGProgress.h"
+#import "NSBundle+ISGPodBundle.h"
 #import "UIColor+ISGColor.h"
 #import "UIImage+ISGCompress.h"
 #import "UITableView+ISGCellLine.h"

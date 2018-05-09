@@ -22,7 +22,7 @@
   "source_files": "ISGCategory/Classes/**/*",
   "resource_bundles": {
     "ISGCategory": [
-      "ISGCategory/*.{bundle,png}"
+      "ISGCategory/Assets/*.png"
     ]
   },
   "frameworks": [

@@ -31,12 +31,11 @@ TODO: 常用分类.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ISGCategory/Classes/**/*'
-  
-  
+
   s.resource_bundles = {
-  
-  'ISGCategory' => ['ISGCategory/*.{bundle,png}']
-  
+      
+      'ISGCategory' => ['ISGCategory/Assets/*.png']
+      
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

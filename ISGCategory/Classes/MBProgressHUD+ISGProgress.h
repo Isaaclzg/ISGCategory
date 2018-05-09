@@ -7,16 +7,6 @@
 //  Copyright © 2015年 isaac. All rights reserved.
 //
 
-// 图片路径
-// 手动Copy
-#define ISGPhotoSource(file) [@"ISGCategory.bundle" stringByAppendingPathComponent:file]
-
-// CocoaPods导入
-#define ISGPhotoSourceForPod(file) [@"Frameworks/ISGCategory.framework/ISGCategory.bundle" stringByAppendingPathComponent:file]
-
-// 设置UIImage通过imageNamed
-#define ISGImgWithName(file) [UIImage imageNamed:ISGPhotoSource(file)]?:[UIImage imageNamed:ISGPhotoSourceForPod(file)];
-
 #import "MBProgressHUD.h"
 
 @interface MBProgressHUD (ISGProgress)

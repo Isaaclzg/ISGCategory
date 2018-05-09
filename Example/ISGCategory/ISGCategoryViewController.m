@@ -7,6 +7,7 @@
 //
 
 #import "ISGCategoryViewController.h"
+#import "MBProgressHUD+ISGProgress.h"
 
 @interface ISGCategoryViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [MBProgressHUD showSuccess:@"success" toView:self.view];
 }
 
 - (void)didReceiveMemoryWarning

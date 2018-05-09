@@ -1,6 +1,7 @@
 //
 //  UITableView+ISCellLine.m
-//  ISToolsDemo
+//  ISGCategory
+//  简书：https://www.jianshu.com/u/7e1b920cdac1
 //
 //  Created by isaac on 15/12/21.
 //  Copyright © 2015年 isaac. All rights reserved.

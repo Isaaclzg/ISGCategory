@@ -1,8 +1,9 @@
 //
-//  UIImage+Wechat.m
+//  ISGCategory
+//  简书：https://www.jianshu.com/u/7e1b920cdac1
 //
-//  Created by tiger on 2017/2/21.
-//  Copyright © 2017年 xinma. All rights reserved.
+//  Created by isaac on 2017/2/21.
+//  Copyright © 2017年 isaac. All rights reserved.
 //
 
 #import "UIImage+ISGCompress.h"

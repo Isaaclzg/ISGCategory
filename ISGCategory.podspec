@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISGCategory'
-  s.version          = '0.1.6'
+  s.version          = '1.0'
   s.summary          = 'ISGCategory'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ TODO: 常用分类.
   
   s.resource_bundles = {
   
-  'ISGCategory' => ['ISGCategory/Assets/*.png']
+  'ISGCategory' => ['ISGCategory/*.{bundle,png}']
   
   }
 

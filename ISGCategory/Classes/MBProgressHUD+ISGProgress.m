@@ -1,13 +1,13 @@
 //
 //  MBProgressHUD+ISProgress.m
-//  ISToolsDemo
+//  ISGCategory
+//  简书：https://www.jianshu.com/u/7e1b920cdac1
 //
 //  Created by isaac on 15/12/21.
 //  Copyright © 2015年 isaac. All rights reserved.
 //
 
 #import "MBProgressHUD+ISGProgress.h"
-
 
 @implementation MBProgressHUD (ISGProgress)
 
@@ -19,7 +19,9 @@
 
     hud.label.text = text;
     // 设置图片
-    hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:icon]];
+    
+    UIImage *img = ISGImgWithName(icon);
+    hud.customView = [[UIImageView alloc] initWithImage:img];
     // 再设置模式
     hud.mode = MBProgressHUDModeCustomView;
     
@@ -61,25 +63,6 @@
     // YES代表需要蒙版效果
 //    hud.dimBackground = NO;
     return hud;
-}
-
-+ (void)showSuccess:(NSString *)success
-{
-    [self showSuccess:success toView:nil];
-}
-
-+ (void)showError:(NSString *)error
-{
-    [self showError:error toView:nil];
-}
-
-+ (MBProgressHUD *)showMessage:(NSString *)message
-{
-    return [self showMessage:message toView:nil];
-}
-
-+ (MBProgressHUD *)showLoading:(NSString *)message {
-    return [self showLoading:message toView:nil];
 }
 
 + (void)hideHUDForView:(UIView *)view

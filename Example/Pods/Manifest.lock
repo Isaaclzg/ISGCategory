@@ -1,5 +1,5 @@
 PODS:
-  - ISGCategory (0.1.6):
+  - ISGCategory (1.0):
     - MBProgressHUD (~> 1.1.0)
   - MBProgressHUD (1.1.0)
 
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ISGCategory: fe9390d9a6d939cfb7ff46b3ad14169855f28848
+  ISGCategory: 8c177bafb833324c9669e5b45d7cc093c67a430f
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
 
 PODFILE CHECKSUM: 4c53551d2e30ace993139615c58d8fb435fc0748

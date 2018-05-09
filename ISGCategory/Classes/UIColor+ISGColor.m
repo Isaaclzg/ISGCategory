@@ -1,6 +1,7 @@
 //
 //  UIColor+ISColor.m
-//  YoYoUP
+//  ISGCategory
+//  简书：https://www.jianshu.com/u/7e1b920cdac1
 //
 //  Created by isaac on 16/1/13.
 //  Copyright © 2016年 isaac. All rights reserved.

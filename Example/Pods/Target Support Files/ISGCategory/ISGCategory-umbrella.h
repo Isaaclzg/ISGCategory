@@ -13,6 +13,7 @@
 #import "MBProgressHUD+ISGProgress.h"
 #import "NSBundle+ISGPodBundle.h"
 #import "UIColor+ISGColor.h"
+#import "UIFont+ISGFontFit.h"
 #import "UIImage+ISGCompress.h"
 #import "UITableView+ISGCellLine.h"
 #import "UIView+ISGViewController.h"

@@ -6,9 +6,13 @@ PODS:
 DEPENDENCIES:
   - ISGCategory (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MBProgressHUD
+
 EXTERNAL SOURCES:
   ISGCategory:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   ISGCategory: 438d5f11c21b0dcb536a7140a06fb4dba23033be
@@ -16,4 +20,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 4c53551d2e30ace993139615c58d8fb435fc0748
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.2

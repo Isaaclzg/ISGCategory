@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISGCategory'
-  s.version          = '1.2'
+  s.version          = '1.3'
   s.summary          = 'ISGCategory'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: 常用分类  1.2添加字号适配
+TODO: 常用分类  1.3添加拼音
                        DESC
 
   s.homepage         = 'https://github.com/Isaaclzg/ISGCategory'

@@ -1,8 +1,8 @@
 {
   "name": "ISGCategory",
-  "version": "1.3",
+  "version": "1.4",
   "summary": "ISGCategory",
-  "description": "TODO: 常用分类  1.3添加拼音",
+  "description": "TODO: 常用分类  1.4添加拼音",
   "homepage": "https://github.com/Isaaclzg/ISGCategory",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Isaaclzg/ISGCategory.git",
-    "tag": "1.3"
+    "tag": "1.4"
   },
   "social_media_url": "https://www.jianshu.com/u/7e1b920cdac1",
   "platforms": {

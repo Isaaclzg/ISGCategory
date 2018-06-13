@@ -28,6 +28,8 @@
 		5F22DA37322B15C0AD16EBBDF43CACA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B99332D4FAE0DDA45928A4D43E0A5BC /* CoreGraphics.framework */; };
 		5FF0344E31CBBC180581164654C58572 /* ISGProgress_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB2ED0D482B40CF7C796CFE410746F7 /* ISGProgress_error@2x.png */; };
 		662858BBD8EBFA46EE9C56931889730B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B99332D4FAE0DDA45928A4D43E0A5BC /* CoreGraphics.framework */; };
+		6AAF7B2520D127A800D576E5 /* UIView+ISGTargetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AAF7B2320D127A800D576E5 /* UIView+ISGTargetAction.h */; };
+		6AAF7B2620D127A800D576E5 /* UIView+ISGTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF7B2420D127A800D576E5 /* UIView+ISGTargetAction.m */; };
 		6F9195C02C31EA8EEBB734A5DF1D1AA2 /* Pods-ISGCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE948BDD342A0AC071FF06907BD215C /* Pods-ISGCategory_Example-dummy.m */; };
 		70D84C5A366C00D318886FD701026D5F /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 003FC7AF144EB5F591B8894C5D5A95A9 /* MBProgressHUD-dummy.m */; };
 		76799C23D8FDCCC4868F96D9C78CB55B /* UIFont+ISGFontFit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E42A65395B9388B3FEE8CB312F39818 /* UIFont+ISGFontFit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -90,13 +92,13 @@
 		003FC7AF144EB5F591B8894C5D5A95A9 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		0CD6C4B864DC6587A31F643BFC5C4ECC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10CF0CFD20B99E2E07BE5D6C3F9134E9 /* Pods-ISGCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ISGCategory_Tests.modulemap"; sourceTree = "<group>"; };
-		2A1D110E8799DC5CA45A144E08A3038D /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1D110E8799DC5CA45A144E08A3038D /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B99332D4FAE0DDA45928A4D43E0A5BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		358D0E9499A71BB09C403E551F78C178 /* Pods-ISGCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ISGCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
 		35F2F40B9E76758EE781CD72B3BA1422 /* Pods-ISGCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ISGCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		365A5B5D7A93CFD6808643930759C697 /* ISGCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISGCategory.xcconfig; sourceTree = "<group>"; };
 		375F25BA47619C6DC9D956752B014A34 /* NSBundle+ISGPodBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+ISGPodBundle.m"; path = "ISGCategory/Classes/NSBundle+ISGPodBundle.m"; sourceTree = "<group>"; };
-		3D9A9023113E7332B1E20D0BBBAAA1A9 /* ISGCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ISGCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D9A9023113E7332B1E20D0BBBAAA1A9 /* ISGCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ISGCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3DB0EBF94C812E85B0D858617020A6A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F9B5AC64713FBB403790AA0776D21DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		477E45E1FB61A6E60C2ED9784DDEEAFA /* Pods-ISGCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ISGCategory_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -107,20 +109,22 @@
 		5BDA6CD23171394CBD4C7D8CD9C84158 /* ISGCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISGCategory-umbrella.h"; sourceTree = "<group>"; };
 		6389EDA98C48770CF34E974ADD304560 /* Pods-ISGCategory_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ISGCategory_Example-resources.sh"; sourceTree = "<group>"; };
 		68239DAFDF450FF4B6881E169CAAAA25 /* ISGProgress_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ISGProgress_success@2x.png"; path = "ISGCategory/Assets/ISGProgress_success@2x.png"; sourceTree = "<group>"; };
+		6AAF7B2320D127A800D576E5 /* UIView+ISGTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+ISGTargetAction.h"; path = "ISGCategory/Classes/UIView+ISGTargetAction.h"; sourceTree = "<group>"; };
+		6AAF7B2420D127A800D576E5 /* UIView+ISGTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIView+ISGTargetAction.m"; path = "ISGCategory/Classes/UIView+ISGTargetAction.m"; sourceTree = "<group>"; };
 		70ED90B39697713401047024DE11C7FC /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		73BD04561C374BC94697192EB7E04C28 /* Pods-ISGCategory_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ISGCategory_Tests-resources.sh"; sourceTree = "<group>"; };
 		7477408E63AA74E3D8CA2CF37254023F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7816891F74EDD1525941BD6AC0C36A59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		789F45131ABD3A736003F0F507B7ABBF /* Pods_ISGCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ISGCategory_Example.framework; path = "Pods-ISGCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7816891F74EDD1525941BD6AC0C36A59 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		789F45131ABD3A736003F0F507B7ABBF /* Pods_ISGCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISGCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0FDF6FF526E04C42E1886469A5CFAA /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		7C93A65619E4B6FF14D3A83F2116B5BC /* UIImage+ISGCompress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ISGCompress.m"; path = "ISGCategory/Classes/UIImage+ISGCompress.m"; sourceTree = "<group>"; };
 		7D24045D373E0FB7DF4C4D6B37592FBA /* UIColor+ISGColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ISGColor.m"; path = "ISGCategory/Classes/UIColor+ISGColor.m"; sourceTree = "<group>"; };
 		7FDC0FF70DE36C3FC1051E191D554E6E /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		8367748407103E5744474D1932AA7C73 /* Pods_ISGCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ISGCategory_Tests.framework; path = "Pods-ISGCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8367748407103E5744474D1932AA7C73 /* Pods_ISGCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISGCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8718AC84E8A9436D25CB942AF98921EA /* Pods-ISGCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISGCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		8FB2ED0D482B40CF7C796CFE410746F7 /* ISGProgress_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ISGProgress_error@2x.png"; path = "ISGCategory/Assets/ISGProgress_error@2x.png"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E551D830E04DB8E9CBC2A86408B910E /* Pods-ISGCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISGCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A64EB2A68373433449E90F3EBAED9925 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		ADDFDA1FAAC7863940CB5A6AEAD2B079 /* ISGCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISGCategory-prefix.pch"; sourceTree = "<group>"; };
@@ -130,7 +134,7 @@
 		B570DC1C7115A3EDA636E5DB300EB6B1 /* Pods-ISGCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ISGCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BF4973E868C885059C03DAF7036C189F /* Pods-ISGCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISGCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BF9700B2DE120E4263E7A530BB8B5020 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3AD21631A03B120A0D9C329F1720FEE /* ISGCategory.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ISGCategory.bundle; path = "ISGCategory-ISGCategory.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AD21631A03B120A0D9C329F1720FEE /* ISGCategory.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISGCategory.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CDC0303A18303369EFAC22285BB33B /* UIView+ISGViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ISGViewController.m"; path = "ISGCategory/Classes/UIView+ISGViewController.m"; sourceTree = "<group>"; };
 		C62F433002BE7D322778CE78A4035FFD /* UIFont+ISGFontFit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+ISGFontFit.m"; path = "ISGCategory/Classes/UIFont+ISGFontFit.m"; sourceTree = "<group>"; };
 		C7763791D3B34E01B5F992CE494CFB7F /* UIView+ISGViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ISGViewController.h"; path = "ISGCategory/Classes/UIView+ISGViewController.h"; sourceTree = "<group>"; };
@@ -144,10 +148,10 @@
 		E08D43BEEBC8E4580279AB3EF46842F9 /* Pods-ISGCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISGCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E1482A5550FC38322E28D74B4CFF5E90 /* UITableView+ISGCellLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+ISGCellLine.m"; path = "ISGCategory/Classes/UITableView+ISGCellLine.m"; sourceTree = "<group>"; };
 		E167E9BD894371289C4C52FAD14463FE /* Pods-ISGCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISGCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E321D66A79B9BD54778CEF15B4533E6D /* ISGCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ISGCategory.framework; path = ISGCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E321D66A79B9BD54778CEF15B4533E6D /* ISGCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISGCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		EAF7E50BD22D602C8BFD89FBB0E64355 /* ResourceBundle-ISGCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ISGCategory-Info.plist"; sourceTree = "<group>"; };
-		EB031BBCEFA8B39489E64D66A1EAAEA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EB031BBCEFA8B39489E64D66A1EAAEA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EB658DFF46D5AFE844FD10724518061F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF529C9CE32B207A0E434B7342F1F604 /* ISGCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ISGCategory.modulemap; sourceTree = "<group>"; };
 		F54537DFEFD104BDCE727E066E4C1057 /* Pods-ISGCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ISGCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -282,7 +286,6 @@
 				8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */,
 				A16D0C6881DA59948052F438201FD774 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -336,6 +339,8 @@
 		B58D00952C04EEF15DBF46D4CFEF05DF /* ISGCategory */ = {
 			isa = PBXGroup;
 			children = (
+				6AAF7B2320D127A800D576E5 /* UIView+ISGTargetAction.h */,
+				6AAF7B2420D127A800D576E5 /* UIView+ISGTargetAction.m */,
 				CD82F1CA05BC0B200B38DA4C8B03F90B /* MBProgressHUD+ISGProgress.h */,
 				AE065C5A8AF6C87D014B065A4665F42D /* MBProgressHUD+ISGProgress.m */,
 				CF6D33CFA4950A4AE97DF43B12B0DD1D /* NSBundle+ISGPodBundle.h */,
@@ -430,6 +435,7 @@
 			files = (
 				C81AE2F91237298E61AB6F1B35D3C468 /* ISGCategory-umbrella.h in Headers */,
 				EBC1F327342CB4267EDDEECFEBF1E58B /* MBProgressHUD+ISGProgress.h in Headers */,
+				6AAF7B2520D127A800D576E5 /* UIView+ISGTargetAction.h in Headers */,
 				14AB6FFD6ACF9D58AFE3B0BC9725A56D /* NSBundle+ISGPodBundle.h in Headers */,
 				165503EE05DDF747FB8A219F30847B23 /* NSString+ISGPinyin.h in Headers */,
 				3DAAA64D7E250C661E3684C55EA9AED6 /* UIColor+ISGColor.h in Headers */,
@@ -611,6 +617,7 @@
 				417333E65681D7D735296BA9D7FC36F7 /* UIColor+ISGColor.m in Sources */,
 				CB95F30C4417383C9ABD87EE4A57A3E3 /* UIFont+ISGFontFit.m in Sources */,
 				07AD244C143786B73C1EC729B6C4314D /* UIImage+ISGCompress.m in Sources */,
+				6AAF7B2620D127A800D576E5 /* UIView+ISGTargetAction.m in Sources */,
 				8FD70C9EEE4865E8EE944438F1442A55 /* UITableView+ISGCellLine.m in Sources */,
 				A0FA567632CB5849470E5CB5A7167881 /* UIView+ISGViewController.m in Sources */,
 			);

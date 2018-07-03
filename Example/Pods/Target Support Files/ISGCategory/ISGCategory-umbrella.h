@@ -13,10 +13,12 @@
 #import "MBProgressHUD+ISGProgress.h"
 #import "NSBundle+ISGPodBundle.h"
 #import "NSString+ISGPinyin.h"
+#import "NSString+ISGRegular.h"
 #import "UIColor+ISGColor.h"
 #import "UIFont+ISGFontFit.h"
 #import "UIImage+ISGCompress.h"
 #import "UITableView+ISGCellLine.h"
+#import "UIView+ISGTargetAction.h"
 #import "UIView+ISGViewController.h"
 
 FOUNDATION_EXPORT double ISGCategoryVersionNumber;

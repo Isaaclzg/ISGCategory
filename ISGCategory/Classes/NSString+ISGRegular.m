@@ -12,7 +12,16 @@
 #pragma mark - 判断是否是手机号码是否合法
 - (BOOL)checkTelePhoneNumber {
     
-    NSString *regex = @"^(1[0-9])\\d{9}$";
+    NSString *regex = @"^((13[0-9])|(14[5,7])|(15[0-3,5-9])|(17[0,3,5-8])|(18[0-9])|166|198|199|(147))[0-9]{8}$";
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
+    BOOL isMatch = [pred evaluateWithObject:self];
+    return isMatch;
+}
+
+#pragma mark - 判断是否为座机号
+- (BOOL)checkSpecialPlane {
+    
+    NSString *regex = @"^([0-9]{3,4})?[0-9]{7,8}$";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
     BOOL isMatch = [pred evaluateWithObject:self];
     return isMatch;

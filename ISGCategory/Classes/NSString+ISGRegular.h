@@ -17,6 +17,13 @@
 - (BOOL)checkTelePhoneNumber;
 
 /**
+ 检查是否为座机号
+
+ @return 座机号是否合法
+ */
+- (BOOL)checkSpecialPlane;
+
+/**
  检查身份证是否合法
 
  @return 身份证是否合法
